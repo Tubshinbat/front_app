@@ -223,9 +223,9 @@ export default ({
           loop={true}
           modules={[EffectFade, Autoplay]}
           effect="fade"
-          // autoplay={{
-          //   delay: 5000,
-          // }}
+          autoplay={{
+            delay: 5000,
+          }}
           className="header-banner"
         >
           {banners &&
