@@ -10,7 +10,7 @@
     "jq-numscroll": "^1.0.2",
     "jquery": "^3.6.0",
     "lerpjs": "^1.1.2",
-    "next": "^12.0.10",
+    "next": "^12.1.7-canary.26",
     "nextjs-fonts": "^0.22.0",
     "nprogress": "^0.2.0",
     "number-scroller": "^3.3.0",
