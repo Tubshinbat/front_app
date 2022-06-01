@@ -112,7 +112,6 @@ export default ({
       if (success) {
         toastControl("success", success);
         setForm({});
-        router.push("#");
       }
       if (error) toastControl("error", error);
     } else toastControl("error", "Талбаруудыг бөглөнө үү");
@@ -127,11 +126,14 @@ export default ({
 
   return (
     <Fragment>
+      <Head>
+        <title> {info.name}</title>
+      </Head>
       <section className="head">
         <nav className="header">
           <div className="container header-menu">
             <div className="header-left">
-              <Link href="/">
+              <Link href="#">
                 <a className="Logo">
                   <img src={base.cdnUrl + "/" + info.logo} />
                 </a>
@@ -161,7 +163,7 @@ export default ({
         <div className={`mobileHeader `}>
           <div className="mid">
             {
-              <Link href="/">
+              <Link href="#">
                 <img
                   src={`${base.cdnUrl}/${info.logo}`}
                   className="mobileLogo"
@@ -369,7 +371,7 @@ export default ({
         id="about"
       >
         <div className="container">
-          {about && (
+          {about && about[0] && (
             <>
               <div className="aboutTitle">
                 <h3>{about[0].name}</h3>
