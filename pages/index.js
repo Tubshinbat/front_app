@@ -513,7 +513,7 @@ export default ({
               className="footer-contact wow animate__animated animate__fadeInDown"
               data-wow-delay={`0.4s`}
             >
-              <a href={`"mailto:${info.email}`}>
+              <a href={`mailto:${info.email}`}>
                 <i className="fa-solid fa-envelope"></i>
                 {info.email}
               </a>{" "}
@@ -522,7 +522,7 @@ export default ({
               className="footer-contact wow animate__animated animate__fadeInDown"
               data-wow-delay={`0.6s`}
             >
-              <a href={`callto: ${info.phone}`}>
+              <a href={`tel: ${info.phone}`}>
                 <i className="fa-solid fa-phone"></i>
                 {info.phone}
               </a>{" "}
