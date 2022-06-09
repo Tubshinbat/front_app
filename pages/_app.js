@@ -86,6 +86,15 @@ function MyApp({ Component, pageProps }) {
             src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
             crossorigin
           ></Script>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-B89PWLS9QM"
+          ></script>
+          <script>
+            window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}
+            gtag('js', new Date()); gtag('config', 'G-B89PWLS9QM');
+          </script>
         </Head>
         <CookiesProvider>
           <Component {...pageProps} />
