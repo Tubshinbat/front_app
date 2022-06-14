@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "autobiz-cms-portal",
+      name: "la-cms-portal",
       script: "npm start",
       autorestart: true,
       env: {
