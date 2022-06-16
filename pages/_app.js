@@ -119,6 +119,7 @@ function MyApp({ Component, pageProps }) {
           `,
             }}
           />
+          <meta name="google-site-verification" content="VNm8bdSv_TnZFKaP7Xhvpi5Kxh1TAb9m8o1KDwORinY" />
         </Head>
         <CookiesProvider>
           <Component {...pageProps} />
